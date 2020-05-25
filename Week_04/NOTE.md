@@ -94,7 +94,7 @@ def BFS(graph, start, end):
             if (nums[mid] > target) {
                 right = mid - 1;
             } else {
-                left = mid;
+                left =  mid;
             }
         }
         return nums[left] == target ? left : -1;
